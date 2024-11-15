@@ -1,0 +1,147 @@
+{
+    "attributes": {
+        "document": ["Name","Architects","Dates"],
+        "block": {
+            "Category": {
+            "field": "Category",
+            "allowed_values": [
+                {"name": "Foundations", "color": "#999999"},
+                {"name": "Structure", "color": "#fdb462"},
+                {"name": "Envelope", "color": "#80b1d3"},
+                {"name": "Interiors", "color": "#fccde5"}
+            ]
+            },
+            "Prefabricated": {
+            "field": "Prefabricated",
+            "allowed_values": [
+                {"name": "True", "color": "#8dd3c7"},
+                {"name": "False", "color": "#999999"}
+            ]
+            },
+            "Work": {
+            "field": "Work",
+            "allowed_values": [
+                {"name": "Foundations", "color": "#999999"},
+                {"name": "Structural steelwork", "color": "#fdb462"},
+                {"name": "Structural woodwork", "color": "#fdb462"},
+                {"name": "Envelope", "color": "#80b1d3"},
+                {"name": "Roofing", "color": "#fccde5"},
+                {"name": "Exterior joinery", "color": "#ffffff"},
+                {"name": "Interior joinery", "color": "#ffffff"},
+                {"name": "Interior construction", "color": "#ffffff"},
+                {"name": "Outdoor steelwork", "color": "#eeeeee"}
+            ]
+            },
+            "Uniformat II 2015": {
+            "field": "Uniformat II 2015",
+            "allowed_values": [
+                {"name": "A1010", "description": "Standard Foundations", "category": "Substructure", "color": "#ffffff"},
+                {"name": "A1020", "description": "Special Foundations", "category": "Substructure", "color": "#ffffff"},
+                {"name": "A1030", "description": "Slab on Grade", "category": "Substructure", "color": "#ffffff"},
+                
+                {"name": "B1010", "description": "Floor Construction", "category": "Shell", "color": "#999999"},
+                {"name": "B1020", "description": "Roof Construction", "category": "Shell", "color": "#999999"},
+                {"name": "B2010", "description": "Exterior Walls", "category": "Shell", "color": "#999999"},
+                {"name": "B2020", "description": "Exterior Windows", "category": "Shell", "color": "#999999"},
+                {"name": "B2030", "description": "Exterior Doors", "category": "Shell", "color": "#999999"},
+                {"name": "B3010", "description": "Roof Coverings", "category": "Shell", "color": "#fdb462"},
+                {"name": "B3020", "description": "Roof Openings", "category": "Shell", "color": "#fdb462"},
+        
+                {"name": "C1010", "description": "Partitions", "category": "Interiors", "color": "#fdb462"},
+                {"name": "C1020", "description": "Interior Doors", "category": "Interiors", "color": "#fdb462"},
+                {"name": "C1030", "description": "Fittings", "category": "Interiors", "color": "#fdb462"},
+                {"name": "C2010", "description": "Stair Construction", "category": "Interiors", "color": "#fdb462"},
+                {"name": "C2020", "description": "Stair Finishes", "category": "Interiors", "color": "#fdb462"},
+                {"name": "C3010", "description": "Wall Finishes", "category": "Interiors", "color": "#fdb462"},
+                {"name": "C3020", "description": "Floor Finishes", "category": "Interiors", "color": "#fdb462"},
+                {"name": "C3030", "description": "Ceiling Finishes", "category": "Interiors", "color": "#fb8072"},
+        
+                {"name": "D1010", "description": "Elevators and Lifts", "category": "Services", "color": "#8dd3c7"},
+                {"name": "D1020", "description": "Escalators and Moving Walks", "category": "Services", "color": "#8dd3c7"},
+                {"name": "D1090", "description": "Other Conveying Systems", "category": "Services", "color": "#8dd3c7"},
+                {"name": "D2010", "description": "Plumbing Fixtures", "category": "Services", "color": "#8dd3c7"},
+                
+                {"name": "E1010", "description": "Commercial Equipment", "category": "Equipment and Furnishings", "color": "#999999"},
+                {"name": "E1020", "description": "Institutional Equipment", "category": "Equipment and Furnishings", "color": "#999999"},
+                {"name": "E1030", "description": "Vehicular Equipment", "category": "Equipment and Furnishings", "color": "#999999"},
+                
+                {"name": "F1010", "description": "Special Structures", "category": "Special Construction and Demolition", "color": "#8dd3c7"},
+                {"name": "F1020", "description": "Integrated Construction", "category": "Special Construction and Demolition", "color": "#8dd3c7"},
+                
+                {"name": "G1010", "description": "Site Clearing", "category": "Building Sitework", "color": "#8dd3c7"},
+                {"name": "G2010", "description": "Roadways", "category": "Building Sitework", "color": "#8dd3c7"}
+              ]
+            },
+            "System": {
+            "field": "System",
+            "allowed_values": [
+                {"name": "True", "color": "#8dd3c7"},
+                {"name": "False", "color": "#999999"}
+            ]
+            }
+        },
+        "object": {
+            "KBOB": {
+                "field": "KBOB",
+                "allowed_values": [
+                    {"name": "Cement stone, expanded clay (light)"},
+                    {"name": "Plasterboard"},
+                    {"name": "Glass Wool"},
+                    {"name": "Concrete (reinforced)"},
+
+                    {"name": "Pine"},
+
+                    {"name": "Steel section"},
+                    {"name": "Steel sheet"},
+
+                    {"name": "Glass (windows)"}
+                ]
+            }
+        }
+    },
+    "materials": {
+        "field": "Material",
+        "allowed_values": [
+          {
+            "mat": "MIN",
+            "en": "Minerals",
+            "fr": "Minéral",
+            "rgb": "117,116,116",
+            "hex": "#757474",
+            "opacity": 0.98
+          },
+          {
+            "mat": "MET",
+            "en": "Metals",
+            "fr": "Métallique",
+            "rgb": "228,21,43",
+            "hex": "#E4152B",
+            "opacity": 0.98
+          },
+          {
+            "mat": "NAT",
+            "en": "Natural",
+            "fr": "Naturels",
+            "rgb": "0,129,97",
+            "hex": "#008161",
+            "opacity": 0.98
+          },
+          {
+            "mat": "PLA",
+            "en": "Plastics",
+            "fr": "Plastique",
+            "rgb": "237,115,170",
+            "hex": "#ED73AA",
+            "opacity": 0.98
+          },
+          {
+            "mat":"GLA",
+            "en":"Glass",
+            "fr":"Verre",
+            "rgb":"0,151,196",
+            "hex":"#0097C4",
+            "opacity":0.30
+          }
+        ]
+      }
+}
