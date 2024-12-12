@@ -108,7 +108,7 @@
             "fr": "Minéral",
             "rgb": "117,116,116",
             "hex": "#757474",
-            "opacity": 0.98
+            "opacity": 1
           },
           {
             "mat": "MET",
@@ -116,7 +116,7 @@
             "fr": "Métallique",
             "rgb": "228,21,43",
             "hex": "#E4152B",
-            "opacity": 0.98
+            "opacity": 1
           },
           {
             "mat": "NAT",
@@ -124,7 +124,7 @@
             "fr": "Naturels",
             "rgb": "0,129,97",
             "hex": "#008161",
-            "opacity": 0.98
+            "opacity": 1
           },
           {
             "mat": "PLA",
@@ -132,7 +132,7 @@
             "fr": "Plastique",
             "rgb": "237,115,170",
             "hex": "#ED73AA",
-            "opacity": 0.98
+            "opacity": 1
           },
           {
             "mat":"GLA",
